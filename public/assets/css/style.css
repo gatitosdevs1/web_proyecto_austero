@@ -1,0 +1,18 @@
+
+
+body{
+   background: rgb(220,216,214);
+   background: linear-gradient(90deg, rgba(220,216,214,1) 9%, rgba(138,130,128,1) 66%);
+}
+
+@font-face {
+   font-family: 'AR Bonnie';
+   src: url('./assets/fonts/ARBonnie.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* Usar la fuente en tu proyecto */
+body {
+   font-family: 'AR Bonnie', sans-serif;
+}
